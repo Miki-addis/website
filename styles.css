@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.invitation-header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #333;
+}
+
+.gala-description {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+.confirmation-message {
+    text-align: center;
+    padding: 20px;
+    color: #008000; /* Green color for confirmation message */
+}
+
+.rsvp-form {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50; /* Green color for the submit button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
